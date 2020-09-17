@@ -21,65 +21,221 @@
     <!-- Stylesheet -->
     <!-- build:css -->
     <link href="assets/css/app.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- endbuild -->
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarCollapse"
-        aria-controls="navbarCollapse"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input
-            class="form-control mr-sm-2"
-            type="text"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
-            <i class="fas fa-search" aria-hidden="true"></i> Search
-          </button>
-        </form>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+      <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="assets/img/Logo.svg" alt="legato" width="150">
+          </a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Why us</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">What we do</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">About us</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#blog">Blog</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger button-contact" href="#jetz">Jetzt Anfragen</a></li>
+              </ul>
+          </div>
       </div>
-    </nav>
+  </nav>
+  <header class="masthead">
+      <div class="container h-100">
+          <div class="row main-text text-left">
+              <div class="col-lg-10">
+                  <h1 class="text-uppercase text-white font-weight-bold">Conflicts are energy vampires</h1>
+                  <p class="leading-text">Legato knows how to deal with them</p>
+                  <ul class="list-fists">
+                    <li>HERE FROM BRAND STATEMENT Mega Statement Mega ONLINE</li>
+                    <li>HERE FROM BRAND STATEMENT Mega Statement Mega ONLINE</li>
+                    <li>HERE FROM BRAND STATEMENT Mega Statement Mega ONLINE</li>
+                  </ul>
+              </div>
+              <div class="col-12">
+                <a href="#" class="action-btn-green">JETZT Loslegen</a>
+              </div>
+          </div>
+      </div>
+  </header>
+    <div class="arrow-home-down text-center">
+      <i class="fas fa-arrow-down"></i>
+    </div>
 
-    <main role="main" class="container">
-      <div class="jumbotron text-center">
-        <img src="assets/img/logo.png" />
-        <h1>Bootstrap 4 Starter Template</h1>
-        <p class="lead">This example is a quick bootstrap starter template.</p>
-        <a
-          class="btn btn-lg btn-primary"
-          href="https://getbootstrap.com/docs/4.0/getting-started/introduction/"
-          role="button"
-          target="_blank"
-          >View Bootstrap 4 Docs &raquo;</a
-        >
+  <section class="why-us prop-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb-5">
+          <h2>WHY US?</h2>
+          <p class="title-lead">Konflikte scheinen manchmal aussichtslos zu sein
+            mit Legato werden Sie Ihre Probleme wieder alleine in den Griff bekommen </p>
+        </div>
+        <div class="col-lg-4">
+          <div class="why-us-body">
+            <div class="img-properties">
+              <img src="assets/img/whyus/FistIcon.png" alt="Fist" width="35">
+            </div>
+            <h4>Schnell handlungsfähig werden und Rechsstreit ersparen</h4>
+            <p>Entlasten Sie Ihr Team und nehmen Sie Ihre Probleme selbst in die Hand, um schnell wieder effizient Arbeiten zu können sein und langfristig zur Organisationsentwicklung beizutragen. </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="why-us-body">
+            <div class="img-properties">
+              <img src="assets/img/whyus/DynamicIcon.png" alt="DynamicIcon" width="35">
+             </div>
+            <h4>Practice & Solution Orientated</h4>
+            <p>Um sie schnell wieder Handlungsfähig zu machen (oder zu wappnen) betreiben wir qualifizierte Diagnostik, um die passende Methodik für sie wählen… / Bedürfnisse. </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="why-us-body">
+            <div class="img-properties">
+              <img src="assets/img/whyus/AllrounderIcon.png" alt="AllrounderIcon" width="35">
+            </div>
+            <h4>Alles unter einem Dach</h4>
+            <p>Um sie schnell wieder Handlungsfähig zu machen (oder zu wappnen) betreiben wir qualifizierte Diagnostik, um die passende Methodik für sie wählen… / Bedürfnisse.</p>
+          </div>
+        </div>
+        <div class="col-12 mt-5 text-center">
+          <a href="#" class="action-btn-green">JETZT Loslegen</a>
+        </div>
       </div>
-    </main>
+    </div>
+  </section>
+
+  <!-- World Section-->
+  <section class="world-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="left-world-text">
+            <h2>CONCENTRATED EXPERTISE OF MEDIATORS, CONSULTANTS COACHES & PSYCHOLOGISTS </h2>
+            <ul class="list-fists">
+              <li>Mega Statement Mega Statement
+                EVIDENCE BASED METHODS ABOUT / EMPERICAL
+                Knowledge of the behaviour of groups and individuals
+                </li>
+              <li>
+              Mega Statement Mega Statement
+              FIELD-COMPETENCE & KNOWLEDGE ABOUT ORGAs Mega Statement
+              </li>
+              <li>
+              Mega Statement Mega Statement
+              NETWORK
+              Mega Statement Mega Statement
+              </li>
+            </ul>
+              <div class="text-left">
+                <a href="#" class="action-btn-green">JETZT Loslegen</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="expertise-image">
+            <img src="assets/img/expertise.png" alt="Expertise" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who Needs Legato  -->
+  <section class="who-need-us prop-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb-5">
+          <h2 class="text-uppercase">WHO NEEDS legato?</h2>
+          <p class="title-lead">Kluge Köpfe die handeln bevor es zu spät ist  </p>
+        </div>
+        <div class="col-lg-4">
+          <div class="why-us-body">
+            <div class="img-properties">
+              <img src="assets/img/whoneedslegato/build.png" alt="build" width="35">
+            </div>
+            <h4>Unternehmen, Organistionen und Vereine jeglicher Größenordnung</h4>
+            <p>Entlasten Sie Ihr Team und nehmen Sie Ihre Probleme selbst in die Hand, um schnell wieder effizient Arbeiten zu können sein und langfristig zur Organisationsentwicklung beizutragen.  </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="why-us-body">
+            <div class="img-properties">
+              <img src="assets/img/whoneedslegato/parlament.png" alt="parlament" width="35">
+             </div>
+            <h4>Politische Institutionen mit Impact auf <span>Klima/Gesellschaft</span></h4>
+            <p>Um sie schnell wieder Handlungsfähig zu machen (oder zu wappnen) betreiben wir qualifizierte Diagnostik, um die passende Methodik für sie wählen… / Bedürfnisse. </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="why-us-body">
+            <div class="img-properties">
+              <img src="assets/img/whoneedslegato/address.png" alt="address" width="35">
+            </div>
+            <h4>Jeder der seine Perspektive erweiterm möchte</h4>
+            <p>Smarte führungskärfte.... Konflikte als weniger bedrohlich wahrnehmen, ihr Team profitiert - Sie am meisten! da sie mit den besten Skills equipt sind für den rest ihres Leben in allen Bereichen. Investieren sie in sich selbst.!</p>
+          </div>
+        </div>
+        <div class="col-12 mt-5 text-center">
+          <a href="#" class="action-btn-green">JETZT Loslegen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Services Section-->
+  <section class="services-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-12 text-center">
+          <div class="service-main-text text-center">
+            <h2>Services THAT Belongs Together</h2>
+              <p>Häufig ist nicht die Frage welche Methode 
+              gewählt wird, sondern mit welcher begenonnen wird</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6 left-world-text">
+          <h4>Mediation</h4>
+          <ul class="list-fists">
+            <li>Service Detail 1</li>
+            <li>Service Detail 2</li>
+            <li>Service Detail 3</li>
+            <li>Service Detail 4</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 left-world-text">
+          <h4>Coaching</h4>
+          <ul class="list-fists">
+            <li>Service Detail 1</li>
+            <li>Service Detail 2</li>
+            <li>Service Detail 3</li>
+            <li>Service Detail 4</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 left-world-text">
+          <h4>Consulting</h4>
+          <ul class="list-fists">
+            <li>Service Detail 1</li>
+            <li>Service Detail 2</li>
+            <li>Service Detail 3</li>
+            <li>Service Detail 4</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 left-world-text">
+          <h4>Environmental PSycholgy</h4>
+          <ul class="list-fists">
+            <li>Service Detail 1</li>
+            <li>Service Detail 2</li>
+            <li>Service Detail 3</li>
+            <li>Service Detail 4</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
     <!-- Bootstrap core JavaScript
 ================================================== -->
